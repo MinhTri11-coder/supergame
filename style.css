@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  grid-gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.light {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.on {
+  background-color: yellow;
+}
+
+.off {
+  background-color: gray;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.guide {
+  font-size: 16px;
+  color: #333;
+}
